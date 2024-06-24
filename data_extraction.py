@@ -2,17 +2,33 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 import json
+from transformers import pipeline
 
+summarizer = pipeline('summarization') # summarizer for wikipedia answers
+
+def summarize_text(text, max_length=50):
+    summarized = summarizer(text, max_length=max_length, min_length = 25, do_sample=False)
+    return summarized[0]['summary_text']
+
+def restructure_question(section_text):
+    question =  f'What is {section_text.strip()}?'
+    if '[edit]' in question:
+        question.replace('[edit]', '')
+    return question
 def scrape_wikipedia_page(url):
     response = requests.get(url)
     soup = BeautifulSoup(response.text, 'html.parser')
     q_and_a = []
     for section in soup.find_all('h2'):
-        question = section.text.strip()
+        question = restructure_question(section.text)
         print(question)
         answer_section = section.find_next_sibling('p')
         if answer_section:
             answer = answer_section.text.strip()
+            if len(answer) > 50:
+                answer = summarize_text(answer)
+            else:
+                answer = answer
             q_and_a.append((question, answer))
         else:
             print(f'No answer found for question: {question}')
