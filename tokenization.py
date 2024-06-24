@@ -1,27 +1,35 @@
-import pandas as pd 
-from transformers import BertTokenizer
+import json
+import numpy as np
+import h5py
 from sklearn.model_selection import train_test_split
-df = pd.read_csv('data/carbon_market_qa.csv')
+from transformers import BertTokenizer
 
-train_texts, test_texts, train_labels, test_labels = train_test_split(df['Question'].tolist(), df['Answer'].tolist(), test_size=0.2)
+dataset_file = 'data/preprocessed_dataset.json'
 
-label_map = {label: idx for idx, label in enumerate(df['Answer'].unique())}
-df['label'] = df['Answer'].map(label_map)
+with open(dataset_file, 'r', encoding='utf-8') as f:
+    dataset = json.load(f)
+
+
+paragraphs = []
+questions = []
+
+for data in dataset['data']:
+    for paragraph in data['paragraphs']:
+        paragraphs.append(paragraph['context'])
+        for qa in paragraph['qas']:
+            questions.append(qa['question'])
+
+#split
+train_paragraphs, val_paragraphs = train_test_split(paragraphs, test_size=0.3, random_state=42)
+train_questions, val_questions = train_test_split(questions, test_size=0.3, random_state=42)
+
+print(train_questions)
+
+#start tokenization
+
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-def tokenize_text(text):
-    return tokenizer.encode(text, add_special_tokens = True, max_length = 128, truncation=True, padding='max_length')
-df['tokenized_question'] = df['Question'].apply(tokenize_text)
-# df['tokenized_answer'] = df['Answer'].apply(tokenize_text)
 
-#create tensors and attention masks for tokenized data
-
-def create_attention_mask(tokens):
-    return[1] * len(tokens)
-
-df['attention_mask_question'] = df['tokenized_question'].apply(create_attention_mask)
-# df['attention_mask_answer'] = df['tokenized_answer'].apply(create_attention_mask)
+tokenized_train_questions = tokenizer(train_questions, padding=True, truncation=True, return_tensors="tf")
+tokenized_val_questions = tokenizer(val_questions, padding=True, truncation=True, return_tensors="tf")
 
 
-df[['tokenized_question', 'attention_mask_question', 'Answer']].to_csv('data/tokenized_carbon_market.csv', index=False)
-
-print('Tokenization completed')
