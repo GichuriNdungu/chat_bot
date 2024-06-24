@@ -1,0 +1,130 @@
+{
+  "data": [
+    {
+      "title": "Carbon offsets and credits",
+      "paragraphs": [
+        {
+          "context": "carbon offsets and credits are a form of carbon pricing along with carbon taxes and subsidies offsets can move among the various markets they are traded in",
+          "qas": [
+            {
+              "question": "what is the definition of carbon offsets and carbon credits",
+              "id": "Carbon offsets and credits_0",
+              "answers": [
+                {
+                  "text": "carbon offsets and credits are a form of carbon pricing along with carbon taxes and subsidies offsets can move among the various markets they are traded in",
+                  "answer_start": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": "common features associated with carbon offset programs are listed below in alphabetical order a list of common features listed below is compiled",
+          "qas": [
+            {
+              "question": "what are some common features of carbon offsets and credits",
+              "id": "Carbon offsets and credits_1",
+              "answers": [
+                {
+                  "text": "common features associated with carbon offset programs are listed below in alphabetical order a list of common features listed below is compiled",
+                  "answer_start": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": "in 1977 major amendments to the us clean air act created one of the first tradable emission offset mechanisms this allowed a permitted facility to increase its emissions in return it had to pay another company to reduce its",
+          "qas": [
+            {
+              "question": "what are the origins and general features of the carbon offsets",
+              "id": "Carbon offsets and credits_2",
+              "answers": [
+                {
+                  "text": "in 1977 major amendments to the us clean air act created one of the first tradable emission offset mechanisms this allowed a permitted facility to increase its emissions in return it had to pay another company to reduce its",
+                  "answer_start": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": "as of 2022 68 carbon pricing programs were in place or scheduled to be created globally many are carbon emissions trading programs or other types of marketoriented program involving carbon offsets and credits",
+          "qas": [
+            {
+              "question": "what are some programs and markets",
+              "id": "Carbon offsets and credits_3",
+              "answers": [
+                {
+                  "text": "as of 2022 68 carbon pricing programs were in place or scheduled to be created globally many are carbon emissions trading programs or other types of marketoriented program involving carbon offsets and credits",
+                  "answer_start": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": "the cdm identifies over 200 types of projects suitable for generating carbon offsets and credits land use improvement methane capture biomass sequestration renewable energy and industrial energy efficiency",
+          "qas": [
+            {
+              "question": "what are the types of offset projects",
+              "id": "Carbon offsets and credits_4",
+              "answers": [
+                {
+                  "text": "the cdm identifies over 200 types of projects suitable for generating carbon offsets and credits land use improvement methane capture biomass sequestration renewable energy and industrial energy efficiency",
+                  "answer_start": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": "many types of offset are difficult to verify because they are indirect many reports by ngo or in the media have questioned the credibility of the various certification providers",
+          "qas": [
+            {
+              "question": "what is assuring quality and determining value",
+              "id": "Carbon offsets and credits_5",
+              "answers": [
+                {
+                  "text": "many types of offset are difficult to verify because they are indirect many reports by ngo or in the media have questioned the credibility of the various certification providers",
+                  "answer_start": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": "offset and credit programs have been identified as a way for countries to meet their ndc commitments and achieve the goals of the paris agreement they may also help close the emissions gap identified in annual unep reports",
+          "qas": [
+            {
+              "question": "what is effectiveness of carbon offsetting",
+              "id": "Carbon offsets and credits_6",
+              "answers": [
+                {
+                  "text": "offset and credit programs have been identified as a way for countries to meet their ndc commitments and achieve the goals of the paris agreement they may also help close the emissions gap identified in annual unep reports",
+                  "answer_start": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": "the use of offsets and credits faces a variety of criticisms some argue that they promote a businessasusual mindset",
+          "qas": [
+            {
+              "question": "what are some limitations and drawbacks",
+              "id": "Carbon offsets and credits_7",
+              "answers": [
+                {
+                  "text": "the use of offsets and credits faces a variety of criticisms some argue that they promote a businessasusual mindset",
+                  "answer_start": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": "1.0"
+}
