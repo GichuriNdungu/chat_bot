@@ -36,7 +36,9 @@ def scrape_wikipedia_page(url):
     return q_and_a
 
 urls = [
-        'https://en.wikipedia.org/wiki/Carbon_offsets_and_credits'
+        'https://en.wikipedia.org/wiki/Carbon_offsets_and_credits',
+        'https://en.wikipedia.org/wiki/Emissions_trading',
+        'https://en.wikipedia.org/wiki/Carbon_emission_trading'
         ]
 
 all_data = []

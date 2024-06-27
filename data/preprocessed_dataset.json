@@ -7,7 +7,7 @@
           "context": "carbon offsets and credits are a form of carbon pricing along with carbon taxes and subsidies offsets can move among the various markets they are traded in",
           "qas": [
             {
-              "question": "what is the definition of carbon offsets and carbon credits",
+              "question": "what is definitionedit",
               "id": "Carbon offsets and credits_0",
               "answers": [
                 {
@@ -22,7 +22,7 @@
           "context": "common features associated with carbon offset programs are listed below in alphabetical order a list of common features listed below is compiled",
           "qas": [
             {
-              "question": "what are some common features of carbon offsets and credits",
+              "question": "what is common featuresedit",
               "id": "Carbon offsets and credits_1",
               "answers": [
                 {
@@ -37,7 +37,7 @@
           "context": "in 1977 major amendments to the us clean air act created one of the first tradable emission offset mechanisms this allowed a permitted facility to increase its emissions in return it had to pay another company to reduce its",
           "qas": [
             {
-              "question": "what are the origins and general features of the carbon offsets",
+              "question": "what is origins and general featuresedit",
               "id": "Carbon offsets and credits_2",
               "answers": [
                 {
@@ -52,7 +52,7 @@
           "context": "as of 2022 68 carbon pricing programs were in place or scheduled to be created globally many are carbon emissions trading programs or other types of marketoriented program involving carbon offsets and credits",
           "qas": [
             {
-              "question": "what are some programs and markets",
+              "question": "what is programs and marketsedit",
               "id": "Carbon offsets and credits_3",
               "answers": [
                 {
@@ -67,7 +67,7 @@
           "context": "the cdm identifies over 200 types of projects suitable for generating carbon offsets and credits land use improvement methane capture biomass sequestration renewable energy and industrial energy efficiency",
           "qas": [
             {
-              "question": "what are the types of offset projects",
+              "question": "what is types of offset projectsedit",
               "id": "Carbon offsets and credits_4",
               "answers": [
                 {
@@ -82,7 +82,7 @@
           "context": "many types of offset are difficult to verify because they are indirect many reports by ngo or in the media have questioned the credibility of the various certification providers",
           "qas": [
             {
-              "question": "what is assuring quality and determining value",
+              "question": "what is assuring quality and determining valueedit",
               "id": "Carbon offsets and credits_5",
               "answers": [
                 {
@@ -97,7 +97,7 @@
           "context": "offset and credit programs have been identified as a way for countries to meet their ndc commitments and achieve the goals of the paris agreement they may also help close the emissions gap identified in annual unep reports",
           "qas": [
             {
-              "question": "what is effectiveness of carbon offsetting",
+              "question": "what is effectivenessedit",
               "id": "Carbon offsets and credits_6",
               "answers": [
                 {
@@ -112,11 +112,261 @@
           "context": "the use of offsets and credits faces a variety of criticisms some argue that they promote a businessasusual mindset",
           "qas": [
             {
-              "question": "what are some limitations and drawbacks",
+              "question": "what is limitations and drawbacksedit",
               "id": "Carbon offsets and credits_7",
               "answers": [
                 {
                   "text": "the use of offsets and credits faces a variety of criticisms some argue that they promote a businessasusual mindset",
+                  "answer_start": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Emissions trading",
+      "paragraphs": [
+        {
+          "context": "emissions trading is a marketbased approach to address pollution the overall goal of an emissions trading plan is to minimize the cost of meeting a set emissions target",
+          "qas": [
+            {
+              "question": "what is introductionedit",
+              "id": "Emissions trading_0",
+              "answers": [
+                {
+                  "text": "emissions trading is a marketbased approach to address pollution the overall goal of an emissions trading plan is to minimize the cost of meeting a set emissions target",
+                  "answer_start": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": "a series of microeconomic computer simulation studies were conducted between 1967 and 1970 each abatement strategy was compared with the leastcost solution",
+          "qas": [
+            {
+              "question": "what is historyedit",
+              "id": "Emissions trading_1",
+              "answers": [
+                {
+                  "text": "a series of microeconomic computer simulation studies were conducted between 1967 and 1970 each abatement strategy was compared with the leastcost solution",
+                  "answer_start": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": "it is possible for a country to reduce emissions using a commandandcontrol approach the cost of that approach differs between countries",
+          "qas": [
+            {
+              "question": "what is economicsedit",
+              "id": "Emissions trading_2",
+              "answers": [
+                {
+                  "text": "it is possible for a country to reduce emissions using a commandandcontrol approach the cost of that approach differs between countries",
+                  "answer_start": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": "cap and trade essentially functions as a tax where the tax rate is variable based on the relative cost of abatement per unit a central authority designates pollution levels each facility is allowed to emit",
+          "qas": [
+            {
+              "question": "what is comparison with other methods of emission reductionedit",
+              "id": "Emissions trading_3",
+              "answers": [
+                {
+                  "text": "cap and trade essentially functions as a tax where the tax rate is variable based on the relative cost of abatement per unit a central authority designates pollution levels each facility is allowed to emit",
+                  "answer_start": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": "other pollutants have also been targeted including carbon emissions trading other pollutants are also being targeted as well as other pollutants",
+          "qas": [
+            {
+              "question": "what is trading systemsedit",
+              "id": "Emissions trading_4",
+              "answers": [
+                {
+                  "text": "other pollutants have also been targeted including carbon emissions trading other pollutants are also being targeted as well as other pollutants",
+                  "answer_start": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": "a capandtrade initiative in the northeast caused concerns it would be regressive and poorer households would absorb most of the new tax",
+          "qas": [
+            {
+              "question": "what is criticismedit",
+              "id": "Emissions trading_5",
+              "answers": [
+                {
+                  "text": "a capandtrade initiative in the northeast caused concerns it would be regressive and poorer households would absorb most of the new tax",
+                  "answer_start": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": "emissions trading seems to be very much suited to reaching the necessary reductions in a costeffective way faure and peeters cautiously endorse the effectiveness of emissions trading",
+          "qas": [
+            {
+              "question": "what is effectivenessedit",
+              "id": "Emissions trading_6",
+              "answers": [
+                {
+                  "text": "emissions trading seems to be very much suited to reaching the necessary reductions in a costeffective way faure and peeters cautiously endorse the effectiveness of emissions trading",
+                  "answer_start": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Carbon emission trading",
+      "paragraphs": [
+        {
+          "context": "the economic problem with climate change is that the emitters of greenhouse gases do not face the full cost implications of their actions external costs may affect the welfare of others",
+          "qas": [
+            {
+              "question": "what is market mechanisms overviewedit",
+              "id": "Carbon emission trading_0",
+              "answers": [
+                {
+                  "text": "the economic problem with climate change is that the emitters of greenhouse gases do not face the full cost implications of their actions external costs may affect the welfare of others",
+                  "answer_start": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": "regulation of emissions applied only to one economic sector or region drastically reduces the efficiency of efforts to reduce global emissions there is however no scientific consensus over how to share the costs and benefits of reducing future climate change",
+          "qas": [
+            {
+              "question": "what is economicsedit",
+              "id": "Carbon emission trading_1",
+              "answers": [
+                {
+                  "text": "regulation of emissions applied only to one economic sector or region drastically reduces the efficiency of efforts to reduce global emissions there is however no scientific consensus over how to share the costs and benefits of reducing future climate change",
+                  "answer_start": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": "carbon emissions trading increased rapidly in 2021 with the start of the chinese national carbon trading scheme the increasing costs of permits on the eu ets have had the effect of increasing cost of coal power",
+          "qas": [
+            {
+              "question": "what is market trendsedit",
+              "id": "Carbon emission trading_2",
+              "answers": [
+                {
+                  "text": "carbon emissions trading increased rapidly in 2021 with the start of the chinese national carbon trading scheme the increasing costs of permits on the eu ets have had the effect of increasing cost of coal power",
+                  "answer_start": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": "the international air transport association says trading should be based on benchmarking 230 member airlines comprise 93 of all international traffic they argue grandfathering would penalise airlines that took early action",
+          "qas": [
+            {
+              "question": "what is business reactionedit",
+              "id": "Carbon emission trading_3",
+              "answers": [
+                {
+                  "text": "the international air transport association says trading should be based on benchmarking 230 member airlines comprise 93 of all international traffic they argue grandfathering would penalise airlines that took early action",
+                  "answer_start": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": "carbon trading schemes have tended to reward the heaviest polluters with windfall profits when they are granted enough carbon credits to match historic production",
+          "qas": [
+            {
+              "question": "what is criticismsedit",
+              "id": "Carbon emission trading_4",
+              "answers": [
+                {
+                  "text": "carbon trading schemes have tended to reward the heaviest polluters with windfall profits when they are granted enough carbon credits to match historic production",
+                  "answer_start": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": "the process began in 1992 when 160 countries agreed the un framework convention on climate change unfccc the necessary detail was left to be settled by the un conference of parties",
+          "qas": [
+            {
+              "question": "what is historyedit",
+              "id": "Carbon emission trading_5",
+              "answers": [
+                {
+                  "text": "the process began in 1992 when 160 countries agreed the un framework convention on climate change unfccc the necessary detail was left to be settled by the un conference of parties",
+                  "answer_start": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": "state government unilaterally established the new south wales greenhouse gas abatement scheme75 to reduce emissions by requiring electricity generators and large consumers to purchase nsw greenhouse abatement certificates this has prompted the roll",
+          "qas": [
+            {
+              "question": "what is examples by countryedit",
+              "id": "Carbon emission trading_6",
+              "answers": [
+                {
+                  "text": "state government unilaterally established the new south wales greenhouse gas abatement scheme75 to reduce emissions by requiring electricity generators and large consumers to purchase nsw greenhouse abatement certificates this has prompted the roll",
+                  "answer_start": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": "a global carbon market can play a significant role in stopping climate change the paris agreement provided a legal base for its creation in the beginning of 2024 the idea made some progress",
+          "qas": [
+            {
+              "question": "what is global carbon marketedit",
+              "id": "Carbon emission trading_7",
+              "answers": [
+                {
+                  "text": "a global carbon market can play a significant role in stopping climate change the paris agreement provided a legal base for its creation in the beginning of 2024 the idea made some progress",
+                  "answer_start": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": "in the united states most polling shows large support for emissions trading this majority support can be seen in polls conducted by the washington postabc news139 zogby international and yale university",
+          "qas": [
+            {
+              "question": "what is society and cultureedit",
+              "id": "Carbon emission trading_8",
+              "answers": [
+                {
+                  "text": "in the united states most polling shows large support for emissions trading this majority support can be seen in polls conducted by the washington postabc news139 zogby international and yale university",
                   "answer_start": 0
                 }
               ]

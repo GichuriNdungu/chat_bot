@@ -2,11 +2,8 @@ import json
 import re
 
 def preprocess_text(text):
-    # Lowercase the text
     text = text.lower()
-    # Remove special characters except alphanumeric and whitespace
     text = re.sub(r'[^\w\s]', '', text)
-    # Remove extra whitespace
     text = re.sub(r'\s+', ' ', text).strip()
     return text
 
